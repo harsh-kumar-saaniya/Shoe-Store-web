@@ -1,0 +1,19 @@
+.appBar{
+    color: #000 !important; 
+}
+.MuiAppBar-root{
+    background-color: #fff !important; 
+
+}
+.header__navbar{
+    background-color: aqua !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+.makeitcenter{
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    background-color: aqua;
+}

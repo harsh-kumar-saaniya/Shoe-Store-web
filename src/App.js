@@ -1,13 +1,17 @@
 import React from 'react';
 import './App.css';
-import Navbar from './Components/Navbar';
+import Header from './Components/Header';
+// import Slider from './Components/Slider';
+import Slider2 from './Components/Slider2';
+import Cards from './Components/Cards';
 
 
 function App() {
   return (
     <div className="App">
-      har har mhadev
-      <Navbar />
+      <Header />
+      <Slider2 />
+      <Cards />
     </div>
   );
 }
