@@ -6,10 +6,10 @@ import Slider2 from './Components/Slider2';
 import Cards from './Components/Cards';
 import Footer from './Components/Footer';
 
-
 function App() {
   return (
     <div className="App">
+
       <Header />
       <Slider2 />
       <Cards />
