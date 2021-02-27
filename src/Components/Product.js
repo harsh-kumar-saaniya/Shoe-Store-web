@@ -1,25 +1,32 @@
 import React, { useEffect, useState } from 'react';
 import './Cards.css';
-import Shoes from './Shoes.json';
+import shoes from './Shoes.json';
 
 const Product = () => {
+    console.log("getting shoe data from product", shoes)
     return (
         <div className="Product">
             <div className="cards">
-                <div className="cards__box">
-                    <div><img src="https://i.ibb.co/3SfJTrp/featured1.png" alt="product image" /></div>
-                    <div className="box__detail">
-                        <div className="box__priceAndTitle">
-                            <div>
-                                Nike Jordan
+                {Object.keys(shoes).map(keyName => {
+                    const shoeObj = shoes[keyName]
+                    return (
+                        <div className="cards__box" key={keyName}>
+                            <div><img src={shoeObj.img} className="card__img" alt="product image" /></div>
+                            <div className="box__detail">
+                                <div className="box__priceAndTitle">
+                                    <div>
+                                        {shoeObj.name}
+                                    </div>
+                                    <div>{shoeObj.price}</div>
+                                </div>
+                                <button className="addtoChart">Add to Chart</button>
+                            </div>
                         </div>
-                            <div>$70.78</div>
-                        </div>
-                        <button className="addtoChart">Add to Chart</button>
-                    </div>
-                </div>
-            </div >
 
+                    )
+                })}
+
+            </div>
         </div>
     )
 }
