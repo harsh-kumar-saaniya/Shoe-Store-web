@@ -1,0 +1,23 @@
+{
+    "Fresh Foam Tempo 2E Wide Velocity Red": {
+        "name": "Fresh Foam Tempo 2E Wide Velocity Red",
+        "img": "https://image.goat.com/750/attachments/product_template_pictures/images/050/830/804/original/MTMPOCR_2E.png.png",
+        "price": "$110",
+        "brand": "New Balance",
+        "gender": "Men"
+    },
+    "Street Encounter 4 Slides 'Mod Grey'": {
+        "name": "Street Encounter 4 Slides 'Mod Grey'",
+        "img": "https://image.goat.com/750/attachments/product_template_pictures/images/050/830/545/original/3022914_100.png.png",
+        "price": "$60",
+        "brand": "Under Armour",
+        "gender": "Men"
+    },
+    "Audazo V5 Pro IN 'Platinum Sky Vivid Coral'": {
+        "name": "Audazo V5 Pro IN 'Platinum Sky Vivid Coral'",
+        "img": "https://image.goat.com/750/attachments/product_template_pictures/images/050/830/800/original/MSASIPS5.png.png",
+        "price": "$110 ",
+        "brand": "New Balance",
+        "gender": "Men"
+    }
+}

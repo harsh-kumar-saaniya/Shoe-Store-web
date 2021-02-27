@@ -5,15 +5,15 @@ import Header from './Components/Header';
 import Slider2 from './Components/Slider2';
 import Cards from './Components/Cards';
 import Footer from './Components/Footer';
+import AppRouter from './Config/AppRouter';
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
 
-      <Header />
-      <Slider2 />
-      <Cards />
-      <Footer />
+      <AppRouter />
+
     </div>
   );
 }

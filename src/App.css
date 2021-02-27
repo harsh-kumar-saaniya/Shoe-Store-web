@@ -4,5 +4,14 @@
 }
 body{
   background-color:#f0e7e7 ;
+}
 
+.errorPage{
+ display: grid;
+ place-items: center;
+}
+.errorPage > img{
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
 }
