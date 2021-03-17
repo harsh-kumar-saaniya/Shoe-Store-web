@@ -1,10 +1,20 @@
-import React from 'react'
+import React from 'react';
+import Card from './Card';
+import Navbar from './Navbar';
 
 const Products = () => {
     return (
-        <div>
-            Product Page
-        </div>
+        <>
+            <Navbar />
+            <div className="product">
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+            </div>
+        </>
     )
 }
 

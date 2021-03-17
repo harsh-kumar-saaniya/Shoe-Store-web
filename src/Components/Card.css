@@ -1,0 +1,108 @@
+.cards{
+    /* border:1px solid black; */
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards__box{
+    margin-top: 5vw;
+    margin-right: 10px;
+    width: 17rem;
+    height:20rem;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; */
+    /* background-color: #F2F2F2; */
+    background-color: blueviolet;
+    border: 1px solid rgb(214, 210, 210);
+    border-radius: 5px;
+}
+.card__img{
+    max-width: 50%;
+    max-height: 50%;
+    object-fit: contain;
+}
+
+.box__detail{
+    /* border: 1px solid black; */
+    height: 30%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.box__priceAndTitle{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.addtoChart{
+    width:fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: brown;
+    transition: 0.5s;
+}
+.addtoChart:hover{
+    box-shadow: 0px 1px 12px 7px rgba(0,0,0,0.33);
+}
+
+
+
+
+
+
+.product{
+    display: flex;
+    flex-flow: wrap;
+    justify-content:center;
+    align-items: center;
+}
+
+
+
+
+
+/* @media for making more flexibility and repsonsive layout */
+
+
+@media screen and (max-width: 1080px){
+    .card{
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .card__img{
+        max-width: 20%;
+        max-height: 20%;
+    }
+    
+}
+@media screen and (max-width: 998px){
+    .card{
+        /* padding-left: 0rem;
+        padding-right: 0rem; */
+        background-color:blue;
+    }
+    .cards__box{
+        margin-right: 2.3rem;
+        width: 20rem;
+        height:22rem;
+    }
+}
+
+
+@media screen and (max-width: 950px){
+    .cards__box{
+        margin-right: 2.3rem;
+        width: 20rem;
+        height:22rem;
+    }
+}
