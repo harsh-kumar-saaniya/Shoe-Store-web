@@ -32,15 +32,3 @@ const Product = () => {
 }
 
 export default Product;
-
-{/* {
-    Object.keys(shoes).map(keyName => {
-        const shoe = shoes[keyName]
-        return (<div key={keyName}>
-            <h2>{shoe.name}</h2>
-            <h3>{shoe.price}</h3>
-            <h3>{shoe.brand}</h3>
-            <img src={shoe.img} />
-        </div>)
-    })
-} */}
