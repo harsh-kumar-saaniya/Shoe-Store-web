@@ -9,11 +9,15 @@ import Home from '../Components/Home';
 import Product from '../Components/Product';
 import ProductItem from '../Components/ProductItem';
 import PageNotFound from '../Components/PageNotFound';
+import Header from '../Components/Header';
 
 const AppRouter = () => {
     return (
         <div>
             <Router>
+                <nav>
+                    <Header />
+                </nav>
                 <Switch>
                     <Route exact path='/' component={Home} />
                     <Route exact path='/products' component={Product} />

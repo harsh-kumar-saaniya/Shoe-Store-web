@@ -12,7 +12,7 @@ const Header = () => {
     return (
         <div className="header">
             <Navbar bg="light" expand="lg" className="header__navbar">
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                <Navbar.Brand href="#home">Shoe Store</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     {/* <Nav className="mr-auto"> */}
