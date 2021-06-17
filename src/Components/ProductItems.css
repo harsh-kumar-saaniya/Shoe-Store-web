@@ -1,0 +1,40 @@
+.latestItems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.dataBox{
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.currentProductName{
+    padding:10px;
+    font-weight: 800;
+    font-size: 25px;
+}
+.currentProductimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* max-width: 50%;
+    max-height: 50%; */
+    /* object-fit: contain; */
+}
+.currentProductimg >img{
+    max-width: 50%;
+    max-height: 50%;
+    object-fit: contain;
+
+}
+.currentProductprice{
+    font-size: 18px;
+    padding:10px;
+    font-weight: 500;
+
+}

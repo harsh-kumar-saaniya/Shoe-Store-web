@@ -10,7 +10,7 @@ import Product from '../Components/Product';
 import ProductItem from '../Components/ProductItem';
 import PageNotFound from '../Components/PageNotFound';
 import Header from '../Components/Header';
-import NewProduct from '../Components/NewProduct';
+import LatestProduct from '../Components/latestProduct';
 
 const AppRouter = () => {
     return (
@@ -22,7 +22,7 @@ const AppRouter = () => {
                 <Switch>
                     <Route exact path='/' component={Home} />
                     {/* <Route exact path='/products' component={Product} /> */}
-                    <Route exact path='/products' component={NewProduct} />
+                    <Route exact path='/products' component={LatestProduct} />
                     <Route path='/products/:id' component={ProductItem} />
                     <Route path='*' component={PageNotFound} />
                 </Switch>

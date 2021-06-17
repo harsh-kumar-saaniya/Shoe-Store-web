@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import shoes from '../Assets/shoes.json';
-import './NewProduct.css'
+import './latestProduct.css'
 
 const NewProduct = () => {
     return (
@@ -17,11 +17,9 @@ const NewProduct = () => {
                                 <p className="info__name"> {shoeObj.name} </p>
                                 <p className="info__price">Price: {shoeObj.price}</p>
                             </div>
-
-                            <button className="addtoChart">Add to Cart</button>
-                            {/* <Link to={`/launchIndex/${keyName}`} className="info_button">
-                                View
-                </Link> */}
+                            <Link to={`/Products/${keyName}`}>
+                                <button className="addtoChart">Add to Cart</button>
+                            </Link>
                         </div>
                     );
                 })}
