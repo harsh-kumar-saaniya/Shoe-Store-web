@@ -5,8 +5,11 @@
     background-color: #fff !important; 
 
 }
+.header{
+    background-color:rgb(232, 243, 243) !important;
+}
 .header__navbar{
-    background-color: aqua !important;
+    background-color: rgb(232, 243, 243) !important;
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;

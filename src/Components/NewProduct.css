@@ -1,0 +1,128 @@
+.latestProduct {
+    max-width: 1300px;
+    margin: 1rem auto;
+  }
+  
+  .latestProduct__title {
+    font-size: 1.5rem;
+    color: #171717;
+    margin-bottom: 1rem;
+    margin-left: 8px;
+    font-weight: 800;
+  }
+  
+  .latestProduct__products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  @media (max-width: 1232px) {
+    .homescreen__products {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (max-width: 950px) {
+    .homescreen__products {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 630px) {
+    .homescreen__products {
+      grid-template-columns: 1fr;
+    }
+  }
+
+
+.latestProduct__product {
+    width: 300px;
+    padding: 1rem;
+    /* background: #fff; */
+    background-color: #e9e3e3;
+    /* box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4); */
+    border-radius: 5px;
+    border: 1px solid rgb(214, 210, 210);
+    margin: 8px auto;
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* .launch {
+    display: flex;
+  } */
+  
+  .latestProduct__product > img {
+    height: 170px;
+    border-radius: 8px;
+  }
+  
+  .product__info > p {
+    margin-bottom: 8px;
+  }
+  
+  .info__price {
+    font-weight: bold;
+  }
+  
+  .info__name {
+    font-size: 1rem;
+    overflow: hidden;
+  }
+  
+  
+  @media (max-width: 1232px) {
+    .latestProduct__product {
+      width: 360px;
+    }
+  }
+  
+  @media (max-width: 1115px) {
+    .latestProduct__product {
+      width: 330px;
+    }
+  }
+  @media (max-width: 1028px) {
+    .latestProduct__product {
+      width: 300px;
+    }
+  }
+  
+  @media (max-width: 950px) {
+    .latestProduct__product {
+      width: 400px;
+    }
+  }
+  
+  @media (max-width: 830px) {
+    .latestProduct__product {
+      width: 330px;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .latestProduct__product {
+      width: 290px;
+    }
+  }
+  
+  @media (max-width: 630px) {
+    .latestProduct__product {
+      width: 450px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .latestProduct__product {
+      width: 350px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .latestProduct__product {
+      width: 300px;
+    }
+  }

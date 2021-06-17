@@ -10,6 +10,7 @@ import Product from '../Components/Product';
 import ProductItem from '../Components/ProductItem';
 import PageNotFound from '../Components/PageNotFound';
 import Header from '../Components/Header';
+import NewProduct from '../Components/NewProduct';
 
 const AppRouter = () => {
     return (
@@ -20,7 +21,8 @@ const AppRouter = () => {
                 </nav>
                 <Switch>
                     <Route exact path='/' component={Home} />
-                    <Route exact path='/products' component={Product} />
+                    {/* <Route exact path='/products' component={Product} /> */}
+                    <Route exact path='/products' component={NewProduct} />
                     <Route path='/products/:id' component={ProductItem} />
                     <Route path='*' component={PageNotFound} />
                 </Switch>

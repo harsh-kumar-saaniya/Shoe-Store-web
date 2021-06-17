@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Cards.css';
-import shoes from './Shoes.json';
+import shoes from '../Assets/shoes.json';
 
 const Product = () => {
     console.log("getting shoe data from product", shoes)
