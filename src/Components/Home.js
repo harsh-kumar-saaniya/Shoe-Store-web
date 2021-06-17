@@ -9,11 +9,8 @@ import Product from './Product';
 const Home = () => {
     return (
         <div>
-            {/* <Header /> */}
             <Slider2 />
-            <Cards />
-            {/* <Product /> */}
-            <Footer/>
+            {/* <Footer /> */}
         </div>
     )
 }
